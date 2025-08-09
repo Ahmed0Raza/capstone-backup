@@ -14,3 +14,11 @@ Backed Up Dir    : /dbdata
 Archive File     : /app/backups/incremental-20250809/backup_dbdata_20250809.tar.gz
 Archive Size     : 4.0K
 
+--------------------------------------------------
+[20250809 16:31:00] Backup Report
+--------------------------------------------------
+Timestamp        : 20250809 16:31:00
+Backed Up Dir    : /dbdata
+Archive File     : /app/backups/incremental-20250809/backup_dbdata_20250809.tar.gz
+Archive Size     : 4.0K
+
