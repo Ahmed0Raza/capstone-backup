@@ -149,6 +149,7 @@ COPY public.tasks (id, title, description, "time", user_id) FROM stdin;
 170	raza	Math and Science2	18:00	2
 203	raza	Math and Sc7ience2	18:00	2
 204	raza	Myyyyyyyyyyyyyy	18:00	2
+237	raza	Myyyyyyydsdsdyyyyyyy	18:00	2
 \.
 
 
@@ -166,7 +167,7 @@ COPY public.users (id, first_name, last_name, email, password) FROM stdin;
 -- Name: tasks_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.tasks_id_seq', 236, true);
+SELECT pg_catalog.setval('public.tasks_id_seq', 237, true);
 
 
 --
