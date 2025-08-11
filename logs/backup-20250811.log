@@ -13,3 +13,25 @@ DB Dump File: /app/backups/incremental-20250811/fastapi_db_dump_20250811.sql
 1754937696 | Creating backup archive
 1754937696 | Archive created
 1754937696 | Generating backup report
+1754937696 | Changes detected, committing...
+1754937696 | Push failed, attempting pull and retry
+1754937696 | Changes pushed to remote
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/Ahmed0Raza/capstone-backup.git        
+To https://github.com/ahmed0raza/capstone-backup.git
+ * [new tag]         backup-20250811-18-41-36 -> backup-20250811-18-41-36
+1754937720 | Backup process started at 20250811 18:42:00
+--------------------------------------------------
+[20250811 18:42:00] Starting Backup
+Target Directory: /data
+Backup Destination: /app/backups/incremental-20250811/backup_data_20250811.tar.gz
+DB Dump File: /app/backups/incremental-20250811/fastapi_db_dump_20250811.sql
+
+1754937720 | Checking GitHub repo capstone-backup
+1754937720 | Git repo already initialized
+1754937720 | Using branch main
+1754937720 | Dumping fastapi DB
+1754937720 | DB dump complete
+1754937720 | Creating backup archive
+1754937720 | Archive created
+1754937720 | Generating backup report
