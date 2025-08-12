@@ -1,0 +1,15 @@
+1755002467 | Backup process started at 20250812 12:41:07
+--------------------------------------------------
+[20250812 12:41:07] Starting Backup
+Target Directory: /data
+Backup Destination: /app/backups/incremental-20250812/backup_data_20250812.tar.gz
+DB Dump File: /app/backups/incremental-20250812/fastapi_db_dump_20250812.sql
+
+1755002467 | Checking GitHub repo capstone-backup
+1755002467 | Initializing git repo
+1755002467 | Using branch main
+1755002467 | Dumping fastapi DB
+1755002467 | DB dump complete
+1755002467 | Creating backup archive
+1755002467 | Archive created
+1755002467 | Generating backup report
