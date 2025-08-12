@@ -134,6 +134,7 @@ COPY public.alembic_version (version_num) FROM stdin;
 --
 
 COPY public.tasks (id, title, description, "time", user_id) FROM stdin;
+1	raza	Myyyyyyydsdsdyyyyyyy	18:00	1
 \.
 
 
@@ -142,6 +143,7 @@ COPY public.tasks (id, title, description, "time", user_id) FROM stdin;
 --
 
 COPY public.users (id, first_name, last_name, email, password) FROM stdin;
+1	ahmed	raza	ahmedrazar@gmail.com	$2b$12$H0k.enrWScza0nYTi7Sh8etNSlz7Df2nhcSAMLL68UryUubDOgIUm
 \.
 
 
@@ -149,14 +151,14 @@ COPY public.users (id, first_name, last_name, email, password) FROM stdin;
 -- Name: tasks_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.tasks_id_seq', 1, false);
+SELECT pg_catalog.setval('public.tasks_id_seq', 1, true);
 
 
 --
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 1, false);
+SELECT pg_catalog.setval('public.users_id_seq', 1, true);
 
 
 --
