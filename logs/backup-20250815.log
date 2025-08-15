@@ -1,0 +1,18 @@
+1755269983 | Backup process started at 20250815 14:59:43
+--------------------------------------------------
+[20250815 14:59:43] Starting Backup
+Target Directory: /data
+Backup Destination: /app/backups/incremental-20250815/backup_data_20250815.tar.gz
+DB Dump File: /app/backups/incremental-20250815/fastapi_db_dump_20250815.sql
+
+1755269983 | Checking GitHub repo capstone-backup
+1755269983 | Initializing git repo
+1755269983 | Using branch main
+1755269983 | Dumping fastapi DB
+WARNING:  database "fastapi" has a collation version mismatch
+DETAIL:  The database was created using collation version 2.36, but the operating system provides version 2.41.
+HINT:  Rebuild all objects in this database that use the default collation and run ALTER DATABASE fastapi REFRESH COLLATION VERSION, or build PostgreSQL with the right library version.
+1755269983 | DB dump complete
+1755269983 | Creating backup archive
+1755269983 | Archive created
+1755269983 | Generating backup report
