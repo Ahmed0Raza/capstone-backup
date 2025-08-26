@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict hb35uwdpqsppqLiRTOTHtAMVy51tozHxlHg5c84QBlRBhFoQQB7DIYJc3NU3TGv
+\restrict bWxPD5hNueJpJteXVcTod0boOVl3ZNc2udbHpUCwsca7Z20YtZ0DFcV9xWC9aN6
 
 -- Dumped from database version 15.14 (Debian 15.14-1.pgdg13+1)
 -- Dumped by pg_dump version 17.6
@@ -218,5 +218,5 @@ ALTER TABLE ONLY public.tasks
 -- PostgreSQL database dump complete
 --
 
-\unrestrict hb35uwdpqsppqLiRTOTHtAMVy51tozHxlHg5c84QBlRBhFoQQB7DIYJc3NU3TGv
+\unrestrict bWxPD5hNueJpJteXVcTod0boOVl3ZNc2udbHpUCwsca7Z20YtZ0DFcV9xWC9aN6
 
