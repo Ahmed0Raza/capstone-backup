@@ -1,0 +1,17 @@
+--------------------------------------------------
+[20250826 17:15:07] Backup Report
+--------------------------------------------------
+Timestamp     : 20250826 17:15:07
+Backed Up Dir : /data
+Archive File  : /app/backups/incremental-20250826/backup_data_20250826.tar.gz
+Archive Size  : 6.4M
+DB Dump File  : /app/backups/incremental-20250826/fastapi_db_dump_20250826.sql
+DB Dump Size  : 8.0K
+
+Commit Status : Changes committed
+Commit Message: Backup update - 20250826 17:15:07
+Changed Files :
+  A	backups/incremental-20250826/backup_data_20250826.tar.gz
+  A	backups/incremental-20250826/fastapi_db_dump_20250826.sql
+  A	logs/backup-20250826.log
+  A	reports/report-20250826.txt
